@@ -14,7 +14,9 @@
       </div>
       <div class="welcome-text">alidStack</div>
 
-      <div class="arrow"></div>
+      <div class="arrow">
+        <img class="arrow__img" src="/img/down-arrow.png" alt="arrow-downr" />
+      </div>
     </section>
 
     <partials-services-list-section />
@@ -33,6 +35,7 @@ html {
   width: 100%;
   height: 100%;
   color: #333;
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -128,19 +131,14 @@ html {
 
 .arrow {
   cursor: pointer;
-}
-.arrow:after {
-  content: "\1F863";
   position: absolute;
-  width: 35px;
-  height: 35px;
-  margin: 0 auto;
-  left: 0;
+  left: 50%;
   right: 0;
-  bottom: 30px;
-  color: #000;
-  opacity: 0;
-  font-size: 35px;
+  bottom: 60px;
+  transform: translateX(-15px);
+}
+
+.arrow__img {
   animation: appearAndPulse 1s ease-in-out infinite;
   animation-delay: 2.5s;
 }
