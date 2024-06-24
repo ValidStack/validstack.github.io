@@ -28,4 +28,12 @@
     width: 450px;
   }
 }
+@media screen and (max-width: 550px) {
+  .section_contact {
+    .section__title::before {
+      width: 95%;
+      height: 100%;
+    }
+  }
+}
 </style>

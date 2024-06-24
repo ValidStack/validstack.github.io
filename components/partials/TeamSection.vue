@@ -53,7 +53,7 @@
       </p>
       <br />
       <p>
-        <b>>Why choose us:</b> We are your reliable technical partner for
+        <b>Why choose us:</b> We are your reliable technical partner for
         turning your boldest ideas into reality. Our attention to detail,
         deadlines and personalized approach will ensure your success in a
         fast-paced world.

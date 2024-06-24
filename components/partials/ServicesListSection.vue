@@ -48,4 +48,15 @@ const services = [
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
 }
+
+/* Styles for tablet devices */
+@media screen and (max-width: 767px) {
+}
+
+/* Styles for mobile devices */
+@media screen and (max-width: 425px) {
+  .services-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 </style>

@@ -167,4 +167,45 @@ html {
 .techs {
   background-color: green;
 }
+
+/* Styles for tablet devices */
+@media screen and (max-width: 550px) {
+  @keyframes appearAndSlide {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-125px, -50%);
+    }
+  }
+
+  .letter {
+    max-width: 50%;
+  }
+
+  .welcome-text {
+    font-size: 42px;
+    transform: translate(0, -8px);
+  }
+  @keyframes fadeInText {
+    0% {
+      opacity: 0;
+      transform: translate(0, -8px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-80px, -8px);
+    }
+  }
+}
+
+/* Styles for mobile devices */
+@media screen and (max-width: 425px) {
+}
 </style>

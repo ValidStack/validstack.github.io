@@ -21,14 +21,20 @@ const menuItems = [
       <a :href="'#' + item.url" v-for="item in menuItems" :key="item.name">{{
         item.name
       }}</a>
-    </div>
-    <div class="links">
       <a
         href="https://www.upwork.com/agencies/validstack/"
         title="Hire us on Upwork"
       >
         Hire us
       </a>
+    </div>
+    <div class="links">
+      <!-- <a
+        href="https://www.upwork.com/agencies/validstack/"
+        title="Hire us on Upwork"
+      >
+        Hire us
+      </a> -->
       <!-- upwork image with link -->
       <!-- <a
         href="https://www.upwork.com/agencies/validstack/"
@@ -77,6 +83,23 @@ header {
   }
   img {
     width: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .menu {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .menu {
+    gap: 5px;
   }
 }
 </style>

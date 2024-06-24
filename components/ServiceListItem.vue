@@ -26,6 +26,7 @@ const props = defineProps({
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
+    text-align: left;
   }
 
   &__technologies {
