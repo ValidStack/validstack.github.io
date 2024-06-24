@@ -130,7 +130,7 @@ html {
   cursor: pointer;
 }
 .arrow:after {
-  content: "🡣";
+  content: "\1F863";
   position: absolute;
   width: 35px;
   height: 35px;
