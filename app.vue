@@ -14,9 +14,9 @@
       </div>
       <div class="welcome-text">alidStack</div>
 
-      <div class="arrow">
+      <a href="#services" class="arrow">
         <img class="arrow__img" src="/img/down-arrow.png" alt="arrow-downr" />
-      </div>
+      </a>
     </section>
 
     <partials-services-list-section />
@@ -134,11 +134,12 @@ html {
   position: absolute;
   left: 50%;
   right: 0;
-  bottom: 60px;
+  bottom: 70px;
   transform: translateX(-15px);
 }
 
 .arrow__img {
+  opacity: 0;
   animation: appearAndPulse 1s ease-in-out infinite;
   animation-delay: 2.5s;
 }
