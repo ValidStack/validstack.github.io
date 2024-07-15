@@ -21,6 +21,7 @@
 
     <partials-services-list-section />
     <partials-team-section />
+    <partials-portfolio-section />
     <partials-contact-section />
 
     <the-footer />

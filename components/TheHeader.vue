@@ -9,6 +9,10 @@ const menuItems = [
     url: "team",
   },
   {
+    name: "Portfolio",
+    url: "portfolio",
+  },
+  {
     name: "Contact",
     url: "contact",
   },
