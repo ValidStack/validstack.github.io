@@ -1,72 +1,28 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="vs-site">
-    <the-header class="header" />
+  <section class="intro">
+    <div class="initial-logo">
+      <img
+        class="letter"
+        src="/img/logo-v-transparent.png"
+        alt="validstack v letter"
+      />
+    </div>
+    <div class="welcome-text">alidStack</div>
 
-    <section class="intro">
-      <div class="initial-logo">
-        <img
-          class="letter"
-          src="/img/logo-v-transparent.png"
-          alt="validstack v letter"
-        />
-      </div>
-      <div class="welcome-text">alidStack</div>
+    <a href="#services" class="arrow">
+      <img class="arrow__img" src="/img/down-arrow.png" alt="arrow-downr" />
+    </a>
+  </section>
 
-      <a href="#services" class="arrow">
-        <img class="arrow__img" src="/img/down-arrow.png" alt="arrow-downr" />
-      </a>
-    </section>
-
-    <partials-services-list-section />
-    <partials-team-section />
-    <partials-portfolio-section />
-    <partials-contact-section />
-
-    <the-footer />
-  </div>
+  <partials-services-list-section />
+  <partials-team-section />
+  <partials-portfolio-section />
+  <partials-contact-section />
 </template>
 
 <style>
-body,
-html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  color: #333;
-  scroll-behavior: smooth;
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  animation: smooth-appear 1s ease forwards;
-  animation-delay: 2.5s;
-}
-@keyframes smooth-appear {
-  to {
-    opacity: 1;
-  }
-}
-
-#vs-site-wrapper {
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  /* color: #333; */
-  /* font-family: monospace, Arial, Helvetica, sans-serif; */
-}
-
-.vs-site {
-  width: 100%;
-  height: 100%;
-}
-
 .intro {
   position: relative;
   height: 100vh;
