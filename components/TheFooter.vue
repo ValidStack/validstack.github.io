@@ -4,8 +4,7 @@
   <footer>
     <span>All rights reserved 2024 © ValidStack</span>
     <address>
-      <span>London office: 6 Lismore Boulevard, 2 Thonrey Close, London NW9 4DB, UK</span>
-      <a href="tel:+447455584371">+44 7455 584371</a>
+      <span>London office: 13 Brook Street, London KT1 2BN, UK</span>
       <a href="mailto:hello@validstack.pro">hello@validstack.pro</a>
     </address>
   </footer>
