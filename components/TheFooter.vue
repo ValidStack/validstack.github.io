@@ -1,12 +1,11 @@
-<script setup lang="ts">
-const year = new Date().getFullYear();
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <footer>
     <div>
       <h3>Office location</h3>
       <address>Gladsaxevej 34, st. th., 2860 Søborg, Denmark</address>
+      <a href="tel:+4571527289">+45 7152 7289</a>
       <span>CVR 45290980</span>
     </div>
     <div>
