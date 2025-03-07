@@ -25,15 +25,15 @@ const menuItems = [
       <a :href="'#' + item.url" v-for="item in menuItems" :key="item.name">{{
         item.name
       }}</a>
-      <a
+    </div>
+    <div class="links">
+      <!-- <a
         href="https://www.upwork.com/agencies/validstack/"
         title="Hire us on Upwork"
       >
         Hire us
       </a>
-    </div>
-    <div class="links">
-      <!-- <a
+      <a
         href="https://www.upwork.com/agencies/validstack/"
         title="Hire us on Upwork"
       >

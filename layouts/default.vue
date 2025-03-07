@@ -36,8 +36,8 @@ html {
   width: 100%;
   height: 100%;
   background-color: #fff;
-  /* color: #333; */
-  /* font-family: monospace, Arial, Helvetica, sans-serif; */
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .vs-site {
